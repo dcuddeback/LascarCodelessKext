@@ -21,7 +21,27 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>IOKitPersonalities</key>
-	<dict/>
+	<dict>
+		<key>LascarCodelessKext</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kpi.iokit</string>
+			<key>IOClass</key>
+			<string>IOService</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bConfigurationValue</key>
+			<integer>1</integer>
+			<key>bInterfaceNumber</key>
+			<integer>0</integer>
+			<key>bcdDevice</key>
+			<integer>16</integer>
+			<key>idProduct</key>
+			<integer>3780</integer>
+			<key>idVendor</key>
+			<integer>6017</integer>
+		</dict>
+	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 David Cuddeback. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
